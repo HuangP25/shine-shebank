@@ -1,0 +1,41 @@
+# Ignore node_modules
+node_modules/
+
+# Ignore npm debug logs
+npm-debug.log*
+
+# Ignore build output if not using dist
+build/
+
+# Ignore environment files
+.env
+.env.local
+.env.*.local
+
+# Ignore Git files
+.git/
+.gitignore
+
+# Ignore yarn lock (use package-lock.json instead)
+yarn.lock
+
+# Ignore IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Ignore OS files
+.DS_Store
+Thumbs.db
+
+# Ignore source TypeScript/JSX files in dist build
+*.ts
+*.tsx
+src/
+
+# Ignore Vite config
+vite.config.ts
+tsconfig.json
+tsconfig.app.json
